@@ -1,0 +1,17 @@
+Roteiro de Desenvolvimento - DIO Live Coding 
+
+- Criar tabela no DunamoDB
+	- Inserir item de demonstração
+- Criar função lambda
+	- Permissões de escrita no DynamoDB
+- Criar API com rotas no API Gareway
+	- Integração com função lambda
+	
+Obs: Atenção à região dos serviços
+
+- Serviços relevantes
+	- Cognito
+	- EC2
+	- Amplify
+	- RDS
+	- S3
