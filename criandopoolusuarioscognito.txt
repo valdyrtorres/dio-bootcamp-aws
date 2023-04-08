@@ -15,3 +15,24 @@ Obs: Atenção à região dos serviços
 	- Amplify
 	- RDS
 	- S3
+==============================================
+Passos:
+- Criar tabela no DynamoDB
+Product
+
+- Criar uma função Lambda
+DIOLiveCoding
+editar o fonte Javascript
+
+- Criar o api gateway
+Criar do tipo HTTP API
+DIOLiveAPI
+
+- Tentar fazer os requests via postman
+vai ter erro de autorização
+ajustar no lambda em "Configuration"
+ver permissão da ROLE no IAM (DIOLiveCoding-role-pzqw2zhl)
+Attach policies (Add Permissions) -> Procurar dynamodb na "lupa"
+
+
+
